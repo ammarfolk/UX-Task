@@ -24,7 +24,7 @@ const Info = () => {
       </p>
       <p className="under-text">
         All prizes and winners are sorted in different graphs. All with two
-        different intro animation.
+        different intro animations.
       </p>
     </article>
   );
