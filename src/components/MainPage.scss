@@ -1,0 +1,68 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.staging {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.staging > * {
+  background-color: #41a1d0;
+  border-radius: 0.5rem;
+  padding: 0.5em;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.staging > :hover {
+  cursor: pointer;
+  transform: translateX(0.3em);
+}
+
+.selected {
+  background-color: #3e8aaf;
+  transform: translateX(calc(60% - 50%));
+}
+
+.selected:hover {
+  transform: translateX(calc(60% - 50%));
+}
+
+.anime-opts {
+  background-color: #41a1d0;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  padding: 0.5em;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+
+  .opts-title {
+    text-align: center;
+    font-size: 26px;
+    padding: 0.5em;
+    margin: 0px;
+  }
+}
+
+.graph {
+  background: rgb(231, 231, 231);
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  width: 85%;
+  height: 700px;
+}
